@@ -8,7 +8,7 @@ class student{
 }
 
 class id extends student{
-    // entends korake js class inheritance bole
+    // akti class others akti class ke access korake inheritance bole
     constructor(name, age, roll, id){
         super(name, age, roll)
         this.id = id; // akhane use korle specipic 

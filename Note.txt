@@ -1,0 +1,14 @@
+1 = Map and ForEach er majhe parthokko
+Ans = Map array return kore and ForEach array return korena
+
+2 = ForOf and Forin Loop er majhe parthokko
+Ans = ForOf use hoi array er jonno and Forin use hoi object er jonno
+
+3 = Class 
+class student{
+    constructor(name){
+        this.name = name // akhane this.name use na kore just name use korle object faka asbe
+    }
+}
+const re = new student("Aktarujjaman")
+console.log(re)
