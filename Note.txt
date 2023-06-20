@@ -12,3 +12,19 @@ class student{
 }
 const re = new student("Aktarujjaman")
 console.log(re)
+
+4 = null typeof -> object
+
+5 = console.log(Math.max()) // result -infinity
+
+6 = var a = Math.max() < Math.min(); // true
+    var b = Math.max() > Math.min(); // false
+    // akhane dui condition min holo max er theke boro
+
+7 = console.log(true + true + true * 3) // 5 true mane 1
+
+8 = console.log(NaN === NaN) // false
+    console.log(String === String) // true
+    console.log(null === null) // true
+    console.log(Boolean === undefined) // true
+    console.log(Number === Number) // true
