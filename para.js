@@ -17,6 +17,18 @@
 
 //let a = Math.sqrt(81)
 
-
-
-console.log(NaN === undefined)
+function fuel(FuelCode) {
+    if(FuelCode > 4){
+        return "MUITO OBRIGADO \n outside the range of 1 to 4"
+    }else if(FuelCode == 1){
+        return "MUITO OBRIGADO \n Alcohol"
+    }else if(FuelCode == 2){
+        return "MUITO OBRIGADO \n Gasoline"
+    }else if(FuelCode == 3){
+        return "MUITO OBRIGADO \n Diesel"
+    }else if(FuelCode == 4){
+        return "MUITO OBRIGADO \n End"
+    }
+}
+let FuelResult = fuel(1)
+console.log(FuelResult)
