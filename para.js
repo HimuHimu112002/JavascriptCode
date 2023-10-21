@@ -17,18 +17,55 @@
 
 //let a = Math.sqrt(81)
 
-function fuel(FuelCode) {
-    if(FuelCode > 4){
-        return "MUITO OBRIGADO \n outside the range of 1 to 4"
-    }else if(FuelCode == 1){
-        return "MUITO OBRIGADO \n Alcohol"
-    }else if(FuelCode == 2){
-        return "MUITO OBRIGADO \n Gasoline"
-    }else if(FuelCode == 3){
-        return "MUITO OBRIGADO \n Diesel"
-    }else if(FuelCode == 4){
-        return "MUITO OBRIGADO \n End"
-    }
+// let a = [1,2,3,4,5,6,7,8];
+// //console.log(a.map(x => x < 10))
+// a.map((item,index)=>{
+//     if(item % 2 != 0){
+//         //console.log(item)
+//     }
+//     //console.log("hello"+index,item)
+
+// })
+
+// let arry = [1,2,3,4,5,6,6,7];
+
+// function ForEachCall(total,value) { 
+//     console.log(total)
+//     console.log(value)
+//     return total + value;
+// }
+// let newNumber = arry.reduce(ForEachCall);
+// console.log(newNumber);
+
+
+//function ForEachCall(value, index, array) {
+    //console.log(value)
+    //console.log(index)
+    //console.log(array)
+    //return value 
+//}
+//arry.forEach(ForEachCall);
+
+//let item = [1,2,3,45,6,7,8,9,0,2,3,45,3,56,4,6,4,4];
+//console.log(item.filter(x => x < 10));
+
+// const originalArray = [1, 2, 3, 4, 5];
+
+// const doubledArray = originalArray.filter((element) => element > 2)
+// console.log(doubledArray);
+// console.log(originalArray)
+// map and filter same oll data show korabe but map diye + - * % and condition use kora jai kora jai but filter diye kora jaina so filte kaj kore only specific kisu data find korar jonno
+
+
+// let a = '121';
+// let b = a.split('').reverse().join('')
+// if (a === b) {
+//     console.log(`${b} is a palindrome number`)
+// }else{
+//     console.log(`${b} is not a palindrome number`)
+// }
+
+host()
+function host() {
+    console.log("name")
 }
-let FuelResult = fuel(1)
-console.log(FuelResult)

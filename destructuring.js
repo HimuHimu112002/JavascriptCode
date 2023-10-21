@@ -6,9 +6,11 @@ const person ={
     a: function hh(){
         console.log("Aktarujjaman");
     }
+    
 }
+person.a()
 // const Name = person.name;
 // console.log(Name);
 
 const {a} = person; // name dile name bade all print korbe.
-console.log(a())
+//console.log(a())
