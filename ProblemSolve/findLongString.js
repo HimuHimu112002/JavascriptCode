@@ -8,4 +8,4 @@ function longString(nams) {
     }
     return [longArray, nams.indexOf(longArray)];
 }
-console.log(longString(["himu", "aktarujjaman"]))
+console.log(longString(["himu", "aktarujjaman","kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"]))

@@ -1,6 +1,6 @@
 let karim={
     name:"karim",
-    age: 21,
+    age: 5,
     year: function(newYear){
         console.log(this.name + ` is ` + (newYear - this.age) + ` Years old`);
 
@@ -12,10 +12,9 @@ karim.year(50)
 
 let rahim = {
     name: "himu",
-    age: 10
+    age: 5
 }
-
 let result = karim.year.bind(rahim, 30)
-result(100)
+result()
 // akhaner 30 jabe function er parameters hisabe newYear er vitore
 // then 30-10 hoiy result show korbe
